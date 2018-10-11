@@ -1,0 +1,458 @@
+body{
+    margin: 0px;
+    height: 800px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-header{
+    grid-column: 1/2;
+    background-color: #3b5998;
+height: 80px;
+}
+.logo{
+    position: relative;
+    width : 150px;
+    top : 30px;
+    left : 150px;
+}
+
+.right-header{
+    grid-column: 2/3;
+    background-color: #3b5998;
+height: 80px;
+}
+
+.right-header-top-box{
+font-family: Helvetica;
+font-size: 12px;
+color: rgb(255,255,255);
+font-weight: 400;
+}
+.right-header-box{
+    background-color:rgb(250, 255, 189);
+background-image:none;
+border-bottom-color:rgb(29, 42, 91);
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-collapse:separate;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(29, 42, 91);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(29, 42, 91);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(29, 42, 91);
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+border-top-style:solid;
+border-top-width:1px;
+color:rgb(0, 0, 0);
+cursor:text;
+direction:ltr;
+display:inline-block;
+font-family:Helvetica, Arial, sans-serif;
+font-size:12px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:10px;
+margin-top:0px;
+padding-bottom:4px;
+padding-left:3px;
+padding-right:3px;
+padding-top:3px;
+text-align:start;
+width: 133.484px;
+}
+
+.right-header-button{
+    background-color:rgb(66, 103, 178);
+border-bottom-color:rgb(41, 72, 125);
+border-bottom-left-radius:2px;
+border-bottom-right-radius:2px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-collapse:separate;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(41, 72, 125);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(41, 72, 125);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(41, 72, 125);
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+border-top-style:solid;
+border-top-width:1px;
+color:white;
+font-family: Helvetica;
+font-size: 12px;
+font-weight: 700;
+}
+
+.right-header-bottom-box{
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(156, 180, 216);  
+    padding : 0px;
+    margin-bottom : 10px;
+    margin-top: 10px;   
+}
+.right-header-table{
+    position : relative;
+    top: 10px;
+    left: 100px;
+}
+
+.Main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Left-Main{
+    grid-column: 1/2;
+    background-image: linear-gradient(white, rgb(211, 216, 232));
+    height: 585px;
+}
+.left-text{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: rgb(14, 56, 95);
+    font-weight: 700;
+    position: relative;
+    left: 150px; 
+    margin-right: 180px;  
+    top :10px; 
+}
+.left-image{
+    position: relative;
+    left:150px;
+}
+.Right-Main{
+    grid-column: 2/3;
+    background-image: linear-gradient(white, rgb(211, 216, 232));
+    height: 585px;
+}
+.right-main-top-text{
+    position: relative;
+    left: 80px;
+    bottom : 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Daftar{   
+    font-family: Helvetica;
+    font-size: 32px;
+    color: rgb(51,51,51);
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.Gratis{
+    font-family: Helvetica;
+    font-size: 19px;
+    color:rgb(29, 33, 41);
+    font-weight: 400;
+    margin-top: 0px;  
+    padding-top: 0px;  
+    margin-bottom: 0px;
+}
+
+.right-main-box{
+    position: relative;
+    left: 80px;
+    bottom : 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Tanggal{
+    font-family: Helvetica;
+    font-size: 19px;
+    color:rgb(29, 33, 41);
+    font-weight: 400;
+    margin-top: 15px;  
+    padding-top: 0px;  
+    margin-bottom: 5px;
+    
+}
+.box-namadepan{
+    background-color:white;
+border-bottom-color:rgb(189, 199, 216);
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(189, 199, 216);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(189, 199, 216);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(189, 199, 216);
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-top-style:solid;
+border-top-width:1px;
+color:rgb(0, 0, 0);
+font-family:Helvetica, Arial, sans-serif;
+font-size:18px;
+padding: 8px 10px;
+width: 172px;
+
+}
+
+.box-namabelakang{
+    background-color:white;
+border-bottom-color:rgb(189, 199, 216);
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(189, 199, 216);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(189, 199, 216);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(189, 199, 216);
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-top-style:solid;
+border-top-width:1px;
+color:rgb(0, 0, 0);
+font-family:Helvetica, Arial, sans-serif;
+font-size:18px;
+padding: 8px 10px;
+width: 172px;
+margin-left: 5px;
+  
+}
+
+.box-email{
+    background-color:white;
+border-bottom-color:rgb(189, 199, 216);
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(189, 199, 216);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(189, 199, 216);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(189, 199, 216);
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-top-style:solid;
+border-top-width:1px;
+color:rgb(0, 0, 0);
+font-family:Helvetica, Arial, sans-serif;
+font-size:18px;
+padding: 8px 10px;
+width: 377px;
+margin-top:7px;
+}
+
+.select-tanggal{
+    align-items:center;
+    background-color:rgb(221, 221, 221);
+    border-bottom-color:rgb(189, 199, 216);
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-image-outset:0px;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(189, 199, 216);
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:rgb(189, 199, 216);
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:rgb(189, 199, 216);
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-top-style:solid;
+    border-top-width:1px;
+    box-sizing:border-box;
+    color:rgb(0, 0, 0);
+    cursor:default;
+    direction:ltr;
+    display:inline-block;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:13px;
+    font-stretch:100%;
+    font-style:normal;
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:400;
+    height:30px;
+    letter-spacing:normal;
+    line-height:normal;
+    width: 78px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+    .mengapa{
+        display:block;
+        position: relative;
+        font : Helvetica;
+        font-size: 12px;
+        width: 150px;
+        color: rgb(54, 88, 153);
+        bottom : 40px;
+        left : 255px;
+        position: relative;
+        
+    }
+    
+    .radio-button{
+        position: relative; 
+        font-family: Helvetica;
+        font-size: 18px;
+        bottom: 30px;
+    }
+    .right-main-date{
+        position: relative;
+        left: 80px;
+        bottom: 20px;
+    }
+    .right-main-daftar{
+        position: relative;
+        left: 80px;
+        bottom: 50px;
+    }
+
+    .text-daftar{
+
+        font : Helvetica;
+        font-size: 12px;
+        color: rgb(119, 119, 119);
+        padding: 0px;
+        margin-right: 250px;
+    }
+
+    .tombol-daftar{
+        background-color:rgb(105, 167, 78);
+    background-image:linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+    border-bottom-color:rgb(44, 81, 21);
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-image-width:1;
+    border-left-color:rgb(59, 110, 34);
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:rgb(59, 110, 34);
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:rgb(59, 110, 34);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top-style:solid;
+    border-top-width:1px;
+    box-shadow:rgb(164, 227, 136) 0px 1px 1px 0px inset;
+    width: 194px;
+    height: 39px;
+    font:"freight sans bold";
+    font-size: 19px;
+    color: white;
+    font-weight: 700;   
+    
+    }
+    
+    .buat-halaman{
+       
+        font-family: Helvetica;
+        font-size : 13px;
+        font-weight: 700;
+        color : rgb(102,102,102);
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 100%;
+        
+    }
+
+    .footer-box{
+    grid-column: 1/3;
+    background-color: white; 
+    height: 200px;
+    position: relative;
+    left: 120px;
+}
+
+.tabel-bahasa{
+    color:rgb(54, 88, 153);
+    font-size: 13px;
+    padding-right: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.tabel-bawah{
+    color:rgb(54, 88, 153);
+    font-size: 13px;
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+ul#menu li{
+    display: inline;  
+    
+}
+ul{
+    margin-left: 0px;
+    margin-right: 120px;
+    padding-left: 0px; 
+    margin-bottom : 0px;
+    height: 10px;
+}
+
+.bottom-footer{
+    font-family: Helvetica;
+    font-size: 11px;
+    color: rgb(115,115,115);
+    position: relative;
+    top: 30px;
+}
